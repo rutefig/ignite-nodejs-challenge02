@@ -1,0 +1,27 @@
+{
+  "name": "ignite-nodejs-challenge02",
+  "version": "1.0.0",
+  "description": "Challenge 02 from NodeJS Ignite Course powered by Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "tsx": "^3.12.7"
+  },
+  "dependencies": {
+    "fastify": "^4.17.0"
+  }
+}
