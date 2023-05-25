@@ -3,10 +3,10 @@ Challenge 02 from NodeJS Ignite Course powered by Rocketseat
 
 ### Functional Requirements
 - [ ] Create a user
-- [ ] Record a meal with name, description, date and time, it's according with diet or not
-- [ ] Edit a meal
-- [ ] Delete a meal
-- [ ] List all meals from a user
+- [x] Record a meal with name, description, date and time, it's according with diet or not
+- [x] Edit a meal
+- [x] Delete a meal
+- [x] List all meals from a user
 - [ ] Show metrics for a user like total meals, total meals inside diet, total meals outside diet, best sequence per day of meals inside the diet
 
 ### Business Rules
