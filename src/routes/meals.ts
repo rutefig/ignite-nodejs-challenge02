@@ -65,7 +65,7 @@ export async function mealsRoutes(app: FastifyInstance) {
       name,
       description,
       is_following_diet,
-      // updated_at = new Date
+      updated_at: knex.fn.now(),
     })
 
     return reply.status(200).send('Content updated')
